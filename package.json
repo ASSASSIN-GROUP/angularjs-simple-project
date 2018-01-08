@@ -4,7 +4,7 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "postinstall": "ng build --",
+    "postinstall": "ng build --aot -prod",
     "ng": "ng",
     "build": "ng build && node server.js",
     "deploy": "git push origin master && git push heroku master",
